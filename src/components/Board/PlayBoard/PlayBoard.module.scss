@@ -1,0 +1,74 @@
+.containerBack {
+  background-size: cover;
+  background-color: rgb(160, 81, 136);
+  min-height: 100vh;
+  height: 100%;
+
+  .customPaddingTop {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    .textPic {
+      min-height: 455px;
+    }
+
+    .clickText {
+      color: white;
+      text-align: center;
+      font-size: 80px;
+      padding: 10px;
+    }
+
+    .tictok {
+      height: 150px;
+      width: 150px;
+      float: left;
+      border: 3px solid white;
+      cursor: pointer;
+
+      &.box0col0 {
+        border-left: none;
+        border-top: none;
+      }
+
+      &.box0col1 {
+        border-top: none;
+      }
+
+      &.box0col2 {
+        border-right: none;
+        border-top: none;
+      }
+
+      &.box1col0 {
+        border-left: none;
+      }
+
+      &.box1col1 {
+        border: 3px solid white;
+      }
+
+      &.box1col2 {
+        border-right: none;
+      }
+
+      &.box2col0 {
+        border-left: none;
+        border-bottom: none;
+      }
+
+      &.box2col1 {
+        border-bottom: none;
+      }
+
+      &.box2col2 {
+        border-right: none;
+        border-bottom: none;
+      }
+
+      &.noCursor {
+        cursor: default;
+      }
+    }
+  }
+}

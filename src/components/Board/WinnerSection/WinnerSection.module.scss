@@ -1,0 +1,37 @@
+.containerBack {
+  background-size: cover;
+  background-color: rgb(160, 81, 136);
+  min-height: 100vh;
+  height: 100%;
+
+  .customPaddingTop {
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+    .customTitle {
+      font-size: 50px;
+      color: white;
+    }
+
+    .customSubtitle {
+      font-size: 30px;
+      color: white;
+    }
+  }
+
+  .customPaddingBottom {
+    padding-bottom: 70px;
+  }
+
+  .customButton {
+    background-color: rgb(226, 75, 100);
+    border-radius: 20px;
+    border: 1px solid rgb(214, 78, 100);
+    padding: 10px 30px;
+    color: white;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
