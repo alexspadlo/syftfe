@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing WinnerSection Component Should render the Tie section 1`] = `
+<section
+  class="w-100 containerBack"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row m-0"
+    >
+      <div
+        class="col-12 customPaddingTop text-center"
+      >
+        <h1
+          class="customTitle"
+        >
+          OOPPS... IT'S A TIE !!!
+        </h1>
+        <h2
+          class="customSubtitle pt-5"
+        >
+           TRY AGAIN
+        </h2>
+      </div>
+      <div
+        class="col-lg-4 col-12 customPaddingBottom m-auto"
+      >
+        <img
+          alt="tictoc"
+          class="img-fluid"
+          src="ops.png"
+        />
+      </div>
+      <section
+        class="w-100 pb-5 text-center"
+      >
+        <button
+          class="customButton"
+        >
+          TRY AGAIN
+        </button>
+      </section>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Testing WinnerSection Component Should render the winner O 1`] = `
+<section
+  class="w-100 containerBack"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row m-0"
+    >
+      <div
+        class="col-12 customPaddingTop text-center"
+      >
+        <h1
+          class="customTitle"
+        >
+          AND THE WINNER IS....
+        </h1>
+        <h2
+          class="customSubtitle pt-5"
+        >
+          PLAYER: 
+          O
+        </h2>
+      </div>
+      <div
+        class="col-lg-4 col-12 customPaddingBottom m-auto"
+      >
+        <img
+          alt="tictoc"
+          class="img-fluid"
+          src="winner.png"
+        />
+      </div>
+      <section
+        class="w-100 pb-5 text-center"
+      >
+        <button
+          class="customButton"
+        >
+          TRY AGAIN
+        </button>
+      </section>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Testing WinnerSection Component Should render the winner X 1`] = `
+<section
+  class="w-100 containerBack"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row m-0"
+    >
+      <div
+        class="col-12 customPaddingTop text-center"
+      >
+        <h1
+          class="customTitle"
+        >
+          AND THE WINNER IS....
+        </h1>
+        <h2
+          class="customSubtitle pt-5"
+        >
+          PLAYER: 
+          X
+        </h2>
+      </div>
+      <div
+        class="col-lg-4 col-12 customPaddingBottom m-auto"
+      >
+        <img
+          alt="tictoc"
+          class="img-fluid"
+          src="winner.png"
+        />
+      </div>
+      <section
+        class="w-100 pb-5 text-center"
+      >
+        <button
+          class="customButton"
+        >
+          TRY AGAIN
+        </button>
+      </section>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check all the 9 cells is in the board and do a snapshot 1`] = `
+<section
+  class="w-100"
+>
+  <section
+    class="w-100 containerBack"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row m-0"
+      >
+        <div
+          class="col-12 col-lg-5 m-auto customPaddingTop text-center"
+        >
+          <img
+            alt="tictoc"
+            class="img-fluid"
+            src="tictoctoe.png"
+          />
+        </div>
+        <div
+          class="col-12 col-lg-7 customPaddingTop m-auto"
+        >
+          <div
+            class="row m-0"
+          >
+            <div
+              class="col-lg-9 col-12 m-auto"
+            >
+              <div
+                class="row m-0"
+              >
+                <div
+                  class="col clickText  tictok box0col0"
+                />
+                <div
+                  class="col clickText  tictok box0col1"
+                />
+                <div
+                  class="col clickText  tictok box0col2"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-9 col-12 m-auto"
+            >
+              <div
+                class="row m-0"
+              >
+                <div
+                  class="col clickText  tictok box1col0"
+                />
+                <div
+                  class="col clickText  tictok box1col1"
+                />
+                <div
+                  class="col clickText  tictok box1col2"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-9 col-12 m-auto"
+            >
+              <div
+                class="row m-0"
+              >
+                <div
+                  class="col clickText  tictok box2col0"
+                />
+                <div
+                  class="col clickText  tictok box2col1"
+                />
+                <div
+                  class="col clickText  tictok box2col2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;

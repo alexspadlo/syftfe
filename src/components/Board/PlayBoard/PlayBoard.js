@@ -7,6 +7,7 @@ import s from './PlayBoard.module.scss'
 
 const PlayBoard = ({ currentPlayer, board }) => {
     const dispatch = useDispatch()
+    if(!board || !currentPlayer) return null
     return (
         <section className={`w-100 ${s.containerBack}`}>
             <div className={`container`}>

@@ -19,4 +19,5 @@ const Board = () => {
     </section>
   )
 }
+
 export default Board

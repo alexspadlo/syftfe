@@ -6,8 +6,9 @@ import winnerImage from '../../../static/winner.png'
 import opsImage from '../../../static/ops.png'
 import s from './WinnerSection.module.scss'
 
-const WinnerSection = ({winner}) => {    
+const WinnerSection = ({winner}) => { 
     const dispatch = useDispatch()
+    if(!winner) return null   
     return (
         <section className={`w-100 ${s.containerBack}`}>
             <div className="container">
@@ -28,7 +29,7 @@ const WinnerSection = ({winner}) => {
                     <div className="row m-0">
                         <div className={`col-12 ${s.customPaddingTop} text-center`}>
                             <h1 className={s.customTitle}>AND THE WINNER IS....</h1>
-                            <h2 className={`${s.customSubtitle} pt-5`}> PLAYER: {winner}</h2>
+                            <h2 className={`${s.customSubtitle} pt-5`}>PLAYER: {winner}</h2>
                         </div>
                         <div className={`col-lg-4 col-12 ${s.customPaddingBottom} m-auto`}>
                             <img className="img-fluid" src={winnerImage} alt="tictoc" />
