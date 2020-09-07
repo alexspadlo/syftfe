@@ -1,5 +1,9 @@
 # Syft Tic-Tac-Toe Coding Challenge
 
+## DEMO 
+
+[Demo link TicTacToe](https://alexspadlo.github.io/syftfe/)
+
 ## Commands
 
 Running local:
